@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.api.karate</groupId>
-  <artifactId>MyKarateCode</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+	<groupId>com.api.karate</groupId>
+	<artifactId>MyKarateCode</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 
-  <name>MyKarateCode</name>
-  <properties>
+	<name>MyKarateCode</name>
+	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
@@ -34,6 +35,11 @@
 			<artifactId>karate-junit5</artifactId>
 			<version>1.2.0.RC4</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.sourceforge.plantuml</groupId>
+			<artifactId>plantuml</artifactId>
+			<version>1.2022.6</version>
 		</dependency>
 	</dependencies>
 
